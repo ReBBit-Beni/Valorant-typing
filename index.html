@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <h1>タイピングゲーム</h1>
+    <p>以下の単語をできるだけ早く正確にタイプしてください。</p>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #word {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        #input {
+            font-size: 20px;
+            padding: 10px;
+        }
+        #start-button {
+            margin-top: 30px;
+            padding: 20px 30px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="word"></div>
+    <input id="input" type="text" autofocus>
+    <div id="score"></div>
+    <div id="timer"></div>
+    <button id="start">Start</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
